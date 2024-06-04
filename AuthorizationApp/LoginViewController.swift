@@ -9,9 +9,13 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet var userNameTextField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        userNameTextField.autocorrectionType = .no
     }
 
 
