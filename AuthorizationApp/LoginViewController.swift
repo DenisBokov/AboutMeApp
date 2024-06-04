@@ -16,7 +16,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         userNameTextField.autocorrectionType = .no
-        userNameTextField.keyboardType = .numberPad
+
     }
 
 
