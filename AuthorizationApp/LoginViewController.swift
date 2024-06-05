@@ -79,7 +79,7 @@ class LoginViewController: UIViewController {
         let coveredContentHeight = keyboardHeight - emptySpaceHeight
         
         // Поднять View со всеми элементами на высоту закрываемого контента
-        view.frame.origin.y = -50
+        view.frame.origin.y = -coveredContentHeight
     }
     
     // Создать фукцию для возвращении контента в исходное положение при закрытие клавиатуры
