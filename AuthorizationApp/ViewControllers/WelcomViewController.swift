@@ -18,8 +18,4 @@ class WelcomViewController: UIViewController {
         
         greetingLabel.text = "Weclcom, \(greeting ?? "")"
     }
-    
-//    @IBAction func cancelButtonPrest() {
-//        dismiss(animated: true)
-//    }
 }
