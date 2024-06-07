@@ -1,5 +1,5 @@
 //
-//  WelcomViewController.swift
+//  AboutMeViewController.swift
 //  AuthorizationApp
 //
 //  Created by Denis Bokov on 05.06.2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class WelcomViewController: UIViewController {
+class AboutMeViewController: UIViewController {
 
     @IBOutlet var greetingLabel: UILabel!
     

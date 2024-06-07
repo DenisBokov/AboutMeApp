@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF433ACC2C104E93000C9078 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF433ACB2C104E93000C9078 /* WelcomViewController.swift */; };
+		EF433ACC2C104E93000C9078 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF433ACB2C104E93000C9078 /* AboutMeViewController.swift */; };
 		EF433AD02C124FC9000C9078 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF433ACF2C124FC9000C9078 /* User.swift */; };
 		EF5586482C0F67DB0015F282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5586472C0F67DB0015F282 /* AppDelegate.swift */; };
 		EF55864A2C0F67DB0015F282 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5586492C0F67DB0015F282 /* SceneDelegate.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF433ACB2C104E93000C9078 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		EF433ACB2C104E93000C9078 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		EF433ACF2C124FC9000C9078 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EF5586442C0F67DB0015F282 /* AuthorizationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5586472C0F67DB0015F282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				EF55864B2C0F67DB0015F282 /* LoginViewController.swift */,
-				EF433ACB2C104E93000C9078 /* WelcomViewController.swift */,
+				EF433ACB2C104E93000C9078 /* AboutMeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 				EF5586482C0F67DB0015F282 /* AppDelegate.swift in Sources */,
 				EF55864A2C0F67DB0015F282 /* SceneDelegate.swift in Sources */,
 				EF433AD02C124FC9000C9078 /* User.swift in Sources */,
-				EF433ACC2C104E93000C9078 /* WelcomViewController.swift in Sources */,
+				EF433ACC2C104E93000C9078 /* AboutMeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
