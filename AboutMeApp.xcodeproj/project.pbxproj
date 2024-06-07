@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		EF433ACB2C104E93000C9078 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		EF433ACF2C124FC9000C9078 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		EF5586442C0F67DB0015F282 /* AuthorizationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5586442C0F67DB0015F282 /* AboutMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5586472C0F67DB0015F282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF5586492C0F67DB0015F282 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF55864B2C0F67DB0015F282 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		EF55863B2C0F67DB0015F282 = {
 			isa = PBXGroup;
 			children = (
-				EF5586462C0F67DB0015F282 /* AuthorizationApp */,
+				EF5586462C0F67DB0015F282 /* AboutMeApp */,
 				EF5586452C0F67DB0015F282 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,12 +69,12 @@
 		EF5586452C0F67DB0015F282 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF5586442C0F67DB0015F282 /* AuthorizationApp.app */,
+				EF5586442C0F67DB0015F282 /* AboutMeApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF5586462C0F67DB0015F282 /* AuthorizationApp */ = {
+		EF5586462C0F67DB0015F282 /* AboutMeApp */ = {
 			isa = PBXGroup;
 			children = (
 				EF433ACE2C124FAD000C9078 /* Models */,
@@ -86,15 +86,15 @@
 				EF5586522C0F67DC0015F282 /* LaunchScreen.storyboard */,
 				EF5586552C0F67DC0015F282 /* Info.plist */,
 			);
-			path = AuthorizationApp;
+			path = AboutMeApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF5586432C0F67DB0015F282 /* AuthorizationApp */ = {
+		EF5586432C0F67DB0015F282 /* AboutMeApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF5586582C0F67DC0015F282 /* Build configuration list for PBXNativeTarget "AuthorizationApp" */;
+			buildConfigurationList = EF5586582C0F67DC0015F282 /* Build configuration list for PBXNativeTarget "AboutMeApp" */;
 			buildPhases = (
 				EF5586402C0F67DB0015F282 /* Sources */,
 				EF5586412C0F67DB0015F282 /* Frameworks */,
@@ -104,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = AuthorizationApp;
+			name = AboutMeApp;
 			productName = AuthorizationApp;
-			productReference = EF5586442C0F67DB0015F282 /* AuthorizationApp.app */;
+			productReference = EF5586442C0F67DB0015F282 /* AboutMeApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF55863F2C0F67DB0015F282 /* Build configuration list for PBXProject "AuthorizationApp" */;
+			buildConfigurationList = EF55863F2C0F67DB0015F282 /* Build configuration list for PBXProject "AboutMeApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF5586432C0F67DB0015F282 /* AuthorizationApp */,
+				EF5586432C0F67DB0015F282 /* AboutMeApp */,
 			);
 		};
 /* End PBXProject section */
@@ -318,7 +318,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XL6Q59VDPK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AuthorizationApp/Info.plist;
+				INFOPLIST_FILE = AboutMeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -350,7 +350,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XL6Q59VDPK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AuthorizationApp/Info.plist;
+				INFOPLIST_FILE = AboutMeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,7 +376,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF55863F2C0F67DB0015F282 /* Build configuration list for PBXProject "AuthorizationApp" */ = {
+		EF55863F2C0F67DB0015F282 /* Build configuration list for PBXProject "AboutMeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF5586562C0F67DC0015F282 /* Debug */,
@@ -385,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF5586582C0F67DC0015F282 /* Build configuration list for PBXNativeTarget "AuthorizationApp" */ = {
+		EF5586582C0F67DC0015F282 /* Build configuration list for PBXNativeTarget "AboutMeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF5586592C0F67DC0015F282 /* Debug */,
