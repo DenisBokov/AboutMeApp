@@ -14,8 +14,10 @@ class LoginViewController: UIViewController {
     @IBOutlet var userNameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
     
-    private let userName = "DenisBokov"
-    private let password = "Denis0111"
+    let userDenis = User(login: "Denis", password: "111", person: User.getPerson())
+    
+//    private let userName = "Denis"
+//    private let password = "111"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,26 +46,31 @@ class LoginViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if userNameTextField.text == userName && passwordTextField.text == password {
-            guard let welcomVC = segue.destination as? WelcomViewController else { return }
-            welcomVC.greeting = userNameTextField.text
+        if userNameTextField.text == userDenis.login && passwordTextField.text == userDenis.password {
+            guard let aboutMeVC = segue.destination as? UITabBarController else { return }
+            guard let viewControllers = aboutMeVC.viewControllers else { return }
+            viewControllers.forEach { viewController in
+                if let firstVC = viewController as? AboutMeViewController {
+                    firstVC.greeting = userDenis.person?.fullName
+                }
+            }
         } else {
             showAlert(with: "Не верный логин или пароль", and: "Повторите попытку снова или воспользуйтесь подсказсками ниже")
         }
     }
     
     @IBAction func unwind(for segue: UIStoryboardSegue) {
-        guard let _ = segue.source as? WelcomViewController else { return }
+        guard let _ = segue.source as? AboutMeViewController else { return }
         userNameTextField.text = ""
         passwordTextField.text = ""
     }
     
     @IBAction func forgotUserNameTapped() {
-        showAlert(with: "Ваш логин:", and: userName)
+        showAlert(with: "Ваш логин:", and: userDenis.login)
     }
     
     @IBAction func forgotPasswordTapped() {
-        showAlert(with: "Ваш пароль:", and: password)
+        showAlert(with: "Ваш пароль:", and: userDenis.password)
     }
     
     // Создать фукцию для поднятия контента при появлении клавиатуры

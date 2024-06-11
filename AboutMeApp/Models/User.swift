@@ -8,7 +8,7 @@
 struct User {
     let login: String
     let password: String
-    let person: Person
+    let person: Person?
     
     static func getPerson() -> Person {
         Person(
@@ -25,4 +25,7 @@ struct Person {
     let lastName: String
     let personImage: String
     let description: String
+    var fullName: String {
+        firstName + " " + lastName
+    }
 }

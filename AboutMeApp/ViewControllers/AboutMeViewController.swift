@@ -16,6 +16,6 @@ class AboutMeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        greetingLabel.text = "Weclcom, \(greeting ?? "")"
+        greetingLabel.text = "\(greeting ?? "")"
     }
 }
