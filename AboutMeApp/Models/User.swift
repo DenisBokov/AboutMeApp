@@ -10,12 +10,11 @@ struct User {
     let password: String
     let person: Person?
     
-    static func getPerson() -> Person {
-        Person(
-            firstName: "Денис",
-            lastName: "Боков",
-            personImage: "",
-            description: "Родился 27 июля 87 года в г. Горьком"
+    static func getUser() -> User {
+        User(
+            login: "Denis",
+            password: "112",
+            person: Person.getPerson()
         )
     }
 }
@@ -25,7 +24,17 @@ struct Person {
     let lastName: String
     let personImage: String
     let description: String
+    
     var fullName: String {
         firstName + " " + lastName
+    }
+    
+    static func getPerson() -> Person {
+        Person(
+            firstName: "Денис",
+            lastName: "Боков",
+            personImage: "",
+            description: ""
+        )
     }
 }
