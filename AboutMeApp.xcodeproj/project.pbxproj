@@ -15,6 +15,7 @@
 		EF55864F2C0F67DB0015F282 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF55864E2C0F67DB0015F282 /* Base */; };
 		EF5586512C0F67DC0015F282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5586502C0F67DC0015F282 /* Assets.xcassets */; };
 		EF5586542C0F67DC0015F282 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF5586532C0F67DC0015F282 /* Base */; };
+		EF82073E2C22EA73008497F8 /* Extention + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF82073D2C22EA73008497F8 /* Extention + UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EF5586502C0F67DC0015F282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF5586532C0F67DC0015F282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF5586552C0F67DC0015F282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF82073D2C22EA73008497F8 /* Extention + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention + UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		EF5586462C0F67DB0015F282 /* AboutMeApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF82073C2C22EA33008497F8 /* Extensions */,
 				EF433ACE2C124FAD000C9078 /* Models */,
 				EF5586472C0F67DB0015F282 /* AppDelegate.swift */,
 				EF5586492C0F67DB0015F282 /* SceneDelegate.swift */,
@@ -87,6 +90,14 @@
 				EF5586552C0F67DC0015F282 /* Info.plist */,
 			);
 			path = AboutMeApp;
+			sourceTree = "<group>";
+		};
+		EF82073C2C22EA33008497F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF82073D2C22EA73008497F8 /* Extention + UIView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 				EF55864A2C0F67DB0015F282 /* SceneDelegate.swift in Sources */,
 				EF433AD02C124FC9000C9078 /* User.swift in Sources */,
 				EF433ACC2C104E93000C9078 /* AboutMeViewController.swift in Sources */,
+				EF82073E2C22EA73008497F8 /* Extention + UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

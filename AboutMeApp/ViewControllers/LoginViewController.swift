@@ -14,10 +14,12 @@ class LoginViewController: UIViewController {
     @IBOutlet var userNameTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
     
-    let userDenis = User.getUser()
+    private let userDenis = User.getUser()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addVerticalGadientLayer()
         
         // Добавить View в центр сообщений как наблюдателя за сообщением о появлении клавиатуры и вызвать функцию подъема контента
         NotificationCenter.default.addObserver(
